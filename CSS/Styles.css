@@ -43,9 +43,23 @@
   #container
   {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  @media (min-width: 1200px)
+   {
+  .container{
+        max-width: 3100px;
+    }
+  body
+	{
+		width: auto;
+		height: auto;
+		margin: 0;
+		background-color:#ffffff;
+		padding-top: 90px;
+	}
+}
 	audio 
 { 
     display:none;
@@ -53,7 +67,7 @@
 
 .footer 
     {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
