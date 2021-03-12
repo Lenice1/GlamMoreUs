@@ -2,6 +2,8 @@
 .topnav 
 {
     background-color: gold;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
   
@@ -22,7 +24,8 @@
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .topnav a.active 
+  {
     background-color: #000000;
     color: white;
   }
