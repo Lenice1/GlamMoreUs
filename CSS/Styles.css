@@ -46,10 +46,10 @@
     margin: auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
-  @media (min-width: 1200px)
+  @media (min-width: 100px)
    {
   .container{
-        max-width: 3100px;
+        max-width: 6000px;
     }
   body
 	{
@@ -74,4 +74,8 @@
     background-color: black;
     color: whitesmoke;
     text-align: center;
+    }
+    .footer h6
+    {
+      font-size: 60%;
     }
