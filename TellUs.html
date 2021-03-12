@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/Styles.css"> 
+    <title>GlamMoreUs - TellUs</title>
+    <audio controls autoplay>
+      <!-- <source src="ThisIsHowWeDo.mp4">   -->
+      </audio>
+</head>
+<body >
+    <div class="topnav">
+        <ul>
+        <a href="index.html" >Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="Blog.html" >Blogs</a>
+        <a class="active" href="TellUs.html">Tell Us</a>  
+    <div class="header"><img src="Photos/GlamMoreUs.png" alt="GlamMoreUs"> </div>
+        </ul>
+    </div> 
+    
+    
+    <div><div id = "container" class="container">
+        <center> <img src="Photos/GlamMoreUs.png" alt="GlamMoreUs" width= "200" height="100"><h4>Submit Your Story</h4></center>
+        <p> “People need stories. Stories of love, hope, survival, wisdom and sometimes pain. Maybe you don’t tell them the full truth; maybe you tell them lies. But what is this world? A lie in itself.” ― Savi Sharma, Everyone Has A Story</p>
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="alias">Alias</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="alias" name="alias" placeholder="Blogger's Name...">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="title">Story Title</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="title" name="title" placeholder="Give Your Story A Title...">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="caribbean">Caribbean</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="uk">United Kingdom</option>
+                <option value="china">China</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="tellus"> Tell Us</label>
+            </div>
+            <div class="col-75">
+              <textarea id="tellus" name="tellus" placeholder="Let's Hear It..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    <div class="footer">
+      <img src="Photos/GlamMoreUsW.png" alt="GlamMoreUsW" width= "100" height="50"> 
+      <p>
+      <img src="Photos/Facebook.png" alt="Facebook"width= "25" height="25">
+      <img src="Photos/Instagram.png" alt="Instagram"width= "25" height="25">
+      <img src="Photos/Snapchat.png" alt="Snapchat"width= "25" height="25">
+      <img src="Photos/Twitter.png" alt="Twitter"width= "25" height="25">
+      </p>
+      <h6>&copy; Copyright 2021 </h6>
+
+      </div>
+    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
+
+</body>
+    
+</html>
